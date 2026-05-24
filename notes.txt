@@ -1,0 +1,32 @@
+cout <<   -> Insertion Operator
+cin >>    -> extraction Operator
+
+---------------------------------------------------------------------------------------------------------------------
+There are 2 types of headers : 
+1. System defined = It comes with compiler,  Provided by C++ libraries,  Written inside < >, ex #include <iostream>
+2. User Defines = Created by users, Written inside " " , Example: #include "myfile.h"
+
+---------------------------------------------------------------------------------------------------------------------
+Value categories in C++
+C++ expressions are divided based on whether they have an identity (memory location) and whether they are temporary.
+
+Category	        Meaning	                        Example
+lvalue	    Has a name/location in memory	        x, arr[0]
+prvalue	    Pure temporary value	                5, x+2
+xvalue	    Expiring object that can be moved	    std::move(x)
+
+Combined categories:
+glvalue = lvalue + xvalue
+→ Has identity
+rvalue = prvalue + xvalue
+→ Temporary or movable value
+---------------------------------------------------------------------------------------------------------------------
+Datatype suffixes in C++ :
+Suffixes are letters added after values to tell the compiler the datatype of the value.
+Used to specify the exact datatype and avoid automatic conversion.
+
+float x = 3.45;   // 3.45 is double by default
+float y = 3.45f;  // explicitly float
+---------------------------------------------------------------------------------------------------------------------
+
+
